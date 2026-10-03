@@ -1,0 +1,6 @@
+AMD 收購 World Labs：買下前緣模型團隊之後，與 NVIDIA 的關係會怎麼變？
+
+📌 【結論】AMD 擬以約 82 億美元、全股票方式收購 World Labs 全部股權。這筆交易有助於讓前沿模型研究與晶片開發互相回饋。我的判斷是，收購後 NVIDIA 的資源支持力道可能下降；如果 AMD 加快平台移轉，而新增人力與支援不足，World Labs 部分原本投入前沿研究的資源，很可能先被軟體、工具與整合工作占用。
+
+完整分析與圖表：
+https://www.facebook.com/permalink.php?story_fbid=pfbid0aJToAL3VACgxPCRthsZb5HgRqaSGH28qJ4NwD1GQYZA1nc2Kpps4Et8tUy2Lbps8l&id=61594601325929

@@ -1,0 +1,6 @@
+Vera Rubin 推論效能提升67倍，為什麼舊 GPU 還沒變成電子垃圾？
+
+📌 【結論】SemiAnalysis 在2026年9月14日發表文章，指出 Vera Rubin NVL72 相較於 GB300 NVL72，每美元推論效能提升67倍。但這個67倍是在特定測試條件下，新舊系統每美元產出的差距，並不是所有工作都能得到的提升。要求模型回答得越快，新硬體的餘裕就越容易顯現；但算力需求很多樣，考慮租金之後，舊硬體在部分工作上仍可能有更好的 CP 值（成本效益）。新硬體大幅進步，和舊硬體仍然有市場，並不衝突。
+
+完整分析與圖表：
+https://www.facebook.com/permalink.php?story_fbid=pfbid0G3EVuREH4Z2VA6kdqfrjKb5Yrz8STShG89M6PjGKucsCdMYRZsz17WgZZ8S3TN7Ql&id=61594601325929

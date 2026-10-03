@@ -1,0 +1,119 @@
+If Vera Rubin Delivers 67× Better Inference Performance, Why Aren’t Older GPUs Already E-Waste?
+
+The takeaway
+
+The 67× figure describes a performance-per-dollar advantage under particular test conditions. It is not an improvement every workload will receive. In this comparison, as the required token generation speed per response rises, the newer system’s headroom becomes more apparent. But workloads differ, and once rental prices enter the calculation, older hardware can still offer better cost efficiency. A substantial improvement in new hardware and a continuing market for older hardware can coexist.
+
+If Vera Rubin is 67× better, why does anyone still rent older GPUs?
+
+On September 14, 2026, SemiAnalysis published an article whose headline described a 67× improvement in inference performance per dollar for Vera Rubin NVL72. The article also argued, once again, that Jensen Huang had understated the performance gains of NVIDIA’s latest hardware.
+
+I’ve long admired Jensen’s insights on AI. At GTC in March 2025, he said, “When Blackwell starts shipping in volume, you couldn’t give Hoppers away.” That remark stayed with me—which is why I was surprised to see H100 rental prices later recover.
+
+To be clear, SemiAnalysis’s article compares Vera Rubin with GB300, not H100. But it raises the same underlying question: if new hardware is advancing so quickly, why does older hardware still have a market?
+
+To understand this, we can first go back to the conditions under which that 67× figure was obtained.
+
+SemiAnalysis’s published results are valuable: they let us examine how much the new generation improves under different requirements. But I find the full curve more informative than the headline number.
+
+The faster each response must be, the wider the gap in this comparison
+
+The short explanation is that 67× comes from a specific set of test conditions. In this comparison, requiring each response to generate more tokens per second widens the gap in total output per dollar. As the requirement approaches the limit of GB300 in this configuration, Vera Rubin still has headroom, and the ratio expands sharply.
+
+The SemiAnalysis chart compares GB300 NVL72 and Vera Rubin NVL72 racks running a DeepSeek V4 Pro agentic workload with TensorRT-LLM inference software.
+
+[Image: Source: SemiAnalysis, September 14, 2026. Original chart, reproduced here for discussion. The chart compares particular system and software configurations; the 67.4× figure is not a universal chip-level speedup.]
+
+The horizontal axis expresses a response-speed requirement, using P90 Interactivity. Roughly speaking, the slower portion of responses must also meet a target token generation speed. The vertical axis measures total token output per dollar after accounting for total cost of ownership (TCO).
+
+The chart is asking two questions at once: how fast must each response be, and how much total work can a system serve for the same cost while meeting that requirement?
+
+As the response-speed requirement rises, both curves decline, but GB300’s falls faster. The three highlighted comparisons increase from 1.42× to 3.09× and finally to 67.4× at roughly 170 tokens per second (TPS).
+
+This does not mean that switching to Vera Rubin makes each answer arrive 67 times faster. It means that, under the same demanding response-speed requirement, the total output per dollar of these configurations can differ by that much.
+
+The article describes 60–100 TPS as a more typical range of requirements, where the improvement is roughly 1.4–3×. That is already a substantial gain, but it gives a different impression from 67×.
+
+The 67× result is meaningful, but it represents a point on the curve where the gap is particularly large. GB300’s output per dollar is already very low there. With a small denominator, the ratio becomes striking. The conditions need to travel with the headline.
+
+Today’s headroom may be tomorrow’s requirement
+
+This reminds me of upgrading from a 486 PC to what we called a “586” in Taiwan—the first-generation Pentium—when I was younger.
+
+Some tasks already ran comfortably on the 486. Moving to the Pentium simply shortened the wait. Other tasks were painfully slow, to the point of feeling unusable. On the new machine, the experience was completely different. The improvement was not just a specification on paper: something frustrating suddenly became practical.
+
+Younger readers might think of using an iPhone 7 handed down by their parents for years, replacing its battery along the way, and finding it increasingly sluggish. Then, after saving up for an iPhone 17 last year, they discover an entirely different level of responsiveness.
+
+The point is that the same hardware upgrade can feel very different across tasks. When the old hardware is already struggling to cope, the new hardware’s headroom becomes especially visible.
+
+AI has a similar dynamic. With applications such as agentic coding, a model may repeatedly read information, modify code, call tools, and continue working based on the results. If more steps must fit within a limited time budget, faster responses at each step may become more valuable.
+
+That does not mean every future workload will migrate to the 67× point. Greater task complexity does not necessarily translate into higher token generation speed requirements. My interpretation is simply that requirements which seem demanding today may appear in more use cases tomorrow.
+
+Using Codex and Claude Code, I have become increasingly aware of how waiting accumulates. Not all of that time is model generation: tool execution, external services, and other steps also contribute. But when a task requires many iterations, faster and more consistent model output still has practical value.
+
+For hardware purchases intended for frontier workloads and future requirements, prioritizing the newer generation therefore makes sense. Headroom that is unused today may become useful tomorrow.
+
+New hardware is faster—but rental prices matter too
+
+Real-world compute demand is not concentrated entirely at the frontier. Workloads differ in context length, batch size, and response-speed requirements. New hardware may be faster, but if the gain is modest for a particular task and older hardware rents for less, the older option may be more economical.
+
+In a Baseten benchmark article published by Lambda on October 25, 2024, the team compared eight H100 GPUs with eight H200 GPUs using Mistral Large 123B across different workloads.
+
+We made our own cost estimate by combining those performance results with RunPod’s January 2, 2025 pricing announcement: US$2.99 per GPU-hour for H100 SXM and US$3.99 for H200. The cost comparisons below are our calculations using these two sources, not cost results published by Baseten.
+
+At those prices, H200 costs about one-third more per hour. Its throughput—the combined number of output tokens generated per second across requests—must therefore improve by more than one-third to reduce the rental cost of completing the same amount of work.
+
+In the long-context test, H200 delivers 3.4× H100’s throughput. Despite its higher hourly price, the estimated cost of equivalent work falls by about 61%.
+
+In the short-context tests with the smaller batch size, however, the throughput improvement is approximately 0–11%. That is not enough to offset the rental premium. H100 instead costs about 17–25% less.
+
+For the large-batch tests, the advantage shifts back to H200, with estimated savings of roughly 2–9%, depending on precision. The 2% difference is small enough that changes in deployment conditions could reverse it.
+
+[Image: Author’s calculations based on Baseten benchmarks published by Lambda (October 25, 2024) and RunPod rental pricing (January 2, 2025). Historical prices; cross-source estimates, not measured rental bills.]
+
+This estimate assumes the relative benchmark throughput transfers to the rental environment and that enough work is available to keep the GPUs utilized. It is not a prediction of an actual bill. Nevertheless, with the same two GPU models and the same rental prices, changing the workload can reverse which option is more economical.
+
+Different workloads leave room for different hardware
+
+The Mélange study supports this idea from another angle. It considers GPU prices, processing capabilities, and workload latency requirements together, selecting a mix of GPU types and assigning requests accordingly. Under the workloads and prices examined in the study, a heterogeneous deployment can cost less than using a single GPU type throughout.
+
+This does not mean that any arbitrary GPU mix will be better. It means that differences between workloads can create room for a division of labor between hardware types.
+
+Rental prices show that older hardware still has a market
+
+If older hardware can still perform valuable work, its rental price need not decline continuously as new generations arrive.
+
+In its April 2, 2026 report, SemiAnalysis said that one-year H100 rental contract prices had recovered from a low of approximately US$1.70 per GPU-hour in October 2025 to about US$2.35 in March 2026—a rise of nearly 40%.
+
+[Image: Source: SemiAnalysis GPU Pricing Index, captured September 17, 2026. Original chart screenshot. The H100 one-year contract series and the spot-contract composite indexes use different pricing methodologies; they should not be treated as one continuous series.]
+
+Silicon Data’s tracking for April and May 2026 also showed no across-the-board decline in H100 rental prices: hyperscaler pricing was broadly flat, while NeoCloud pricing rose by about 3.8%.
+
+Those changes cannot all be attributed to the cost efficiency of older hardware. Supply, delivery lead times, available rental capacity, and overall demand also affect prices. At a minimum, though, they show that older hardware did not immediately lose its market when new hardware appeared.
+
+New hardware can make a major leap without making older hardware worthless
+
+The advantages of new hardware are substantial. In particular, as we demand faster responses from models, its headroom becomes more apparent. As applications such as agentic coding develop, that headroom may become more useful. But this does not mean every workload receives a 67× improvement, or that 67× is a fixed performance gap between hardware generations.
+
+Older hardware can also offer better cost efficiency. Our estimate uses benchmark results for the earlier-generation H100 and H200, combined with rental prices. In the short-context, smaller-batch cases, H200’s throughput improvement does not offset its rental premium, making H100 more economical. With long contexts or large batches, the advantage shifts to H200. The appropriate hardware depends on the work, the required speed, and the cost of obtaining compute.
+
+When buying hardware for frontier workloads and future requirements, newer-generation systems should be a priority for consideration. But existing older hardware can still provide value when rental prices and workload requirements are a good match. A major leap in new hardware and a continuing market for older hardware are not contradictory.
+
+Sources:
+
+https://substack-post-media.s3.amazonaws.com/public/images/ac2da106-c1f2-4c85-ab6c-858908f06c05_2048x1322.png
+
+https://lambda.ai/blog/partner-spotlight-evaluating-nvidia-h200-gpus-for-ai-inference-with-baseten
+
+https://blog.runpod.io/h200s-tensor-now-available-on-runpod/
+
+https://arxiv.org/html/2404.14527v4
+
+https://newsletter.semianalysis.com/p/the-great-gpu-shortage-rental-capacity
+
+https://www.silicondata.com/blog/h100-index-may-2026-two-tiers-two-regimes
+
+https://www.nvidia.com/en-us/on-demand/session/gtc25-s72484/
+
+https://gpu-index.semianalysis.com/
