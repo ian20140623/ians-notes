@@ -1,0 +1,405 @@
+{
+  "schema_version": 1,
+  "tags": [
+    {
+      "id": "advanced-nodes",
+      "label": "Advanced Nodes"
+    },
+    {
+      "id": "advanced-packaging",
+      "label": "Advanced Packaging"
+    },
+    {
+      "id": "agentic-coding",
+      "label": "Agentic Coding"
+    },
+    {
+      "id": "ai-agents",
+      "label": "AI Agents"
+    },
+    {
+      "id": "ai-inference",
+      "label": "AI Inference"
+    },
+    {
+      "id": "ai-pc",
+      "label": "AI PC"
+    },
+    {
+      "id": "amd",
+      "label": "AMD"
+    },
+    {
+      "id": "apple",
+      "label": "Apple"
+    },
+    {
+      "id": "asus",
+      "label": "ASUS 華碩"
+    },
+    {
+      "id": "atlas",
+      "label": "Atlas"
+    },
+    {
+      "id": "automation",
+      "label": "Automation"
+    },
+    {
+      "id": "benchmarking",
+      "label": "Benchmarking"
+    },
+    {
+      "id": "capital-expenditure",
+      "label": "Capital Expenditure"
+    },
+    {
+      "id": "cisco",
+      "label": "Cisco"
+    },
+    {
+      "id": "codex",
+      "label": "Codex"
+    },
+    {
+      "id": "cosmos",
+      "label": "Cosmos"
+    },
+    {
+      "id": "cuda",
+      "label": "CUDA"
+    },
+    {
+      "id": "f-ram",
+      "label": "F-RAM"
+    },
+    {
+      "id": "foundry",
+      "label": "Foundry"
+    },
+    {
+      "id": "frontier-models",
+      "label": "Frontier Models"
+    },
+    {
+      "id": "gaia",
+      "label": "GAIA"
+    },
+    {
+      "id": "genie",
+      "label": "Genie"
+    },
+    {
+      "id": "glass-fiber",
+      "label": "Glass Fiber"
+    },
+    {
+      "id": "glass-fiber-fabric",
+      "label": "Glass Fiber Fabric"
+    },
+    {
+      "id": "gpu-economics",
+      "label": "GPU Economics"
+    },
+    {
+      "id": "gwm-1",
+      "label": "GWM-1"
+    },
+    {
+      "id": "hbm",
+      "label": "HBM"
+    },
+    {
+      "id": "hbm4e",
+      "label": "HBM4e"
+    },
+    {
+      "id": "infineon",
+      "label": "Infineon"
+    },
+    {
+      "id": "isaac-gr00t",
+      "label": "Isaac GR00T"
+    },
+    {
+      "id": "linux",
+      "label": "Linux"
+    },
+    {
+      "id": "local-ai",
+      "label": "Local AI"
+    },
+    {
+      "id": "m5-max",
+      "label": "M5 Max"
+    },
+    {
+      "id": "mac-mini",
+      "label": "Mac mini"
+    },
+    {
+      "id": "mac-studio",
+      "label": "Mac Studio"
+    },
+    {
+      "id": "macbook-pro",
+      "label": "MacBook Pro"
+    },
+    {
+      "id": "macos",
+      "label": "macOS"
+    },
+    {
+      "id": "marble",
+      "label": "Marble"
+    },
+    {
+      "id": "mergers-acquisitions",
+      "label": "Mergers & Acquisitions"
+    },
+    {
+      "id": "msap",
+      "label": "mSAP"
+    },
+    {
+      "id": "nemotron",
+      "label": "Nemotron"
+    },
+    {
+      "id": "nor-flash",
+      "label": "NOR Flash"
+    },
+    {
+      "id": "nvidia",
+      "label": "NVIDIA"
+    },
+    {
+      "id": "nvlink",
+      "label": "NVLink"
+    },
+    {
+      "id": "open-source",
+      "label": "Open Source"
+    },
+    {
+      "id": "openai",
+      "label": "OpenAI"
+    },
+    {
+      "id": "openai-dot",
+      "label": "OpenAI Dot"
+    },
+    {
+      "id": "optical-communications",
+      "label": "Optical Communications"
+    },
+    {
+      "id": "optical-transceivers",
+      "label": "Optical Transceivers"
+    },
+    {
+      "id": "pcb",
+      "label": "PCB"
+    },
+    {
+      "id": "ptfe",
+      "label": "PTFE"
+    },
+    {
+      "id": "rtx-spark",
+      "label": "RTX Spark"
+    },
+    {
+      "id": "spatial-ai",
+      "label": "Spatial AI"
+    },
+    {
+      "id": "trade-policy",
+      "label": "Trade Policy"
+    },
+    {
+      "id": "tsmc-a16",
+      "label": "TSMC A16"
+    },
+    {
+      "id": "tsmc-n2",
+      "label": "TSMC N2"
+    },
+    {
+      "id": "tsmc-n3",
+      "label": "TSMC N3"
+    },
+    {
+      "id": "tsmc",
+      "label": "TSMC 台積電"
+    },
+    {
+      "id": "unimicron",
+      "label": "Unimicron 欣興"
+    },
+    {
+      "id": "unix",
+      "label": "Unix"
+    },
+    {
+      "id": "v-jepa-2",
+      "label": "V-JEPA 2"
+    },
+    {
+      "id": "vera-rubin",
+      "label": "Vera Rubin"
+    },
+    {
+      "id": "winbond",
+      "label": "Winbond 華邦電"
+    },
+    {
+      "id": "windows",
+      "label": "Windows"
+    },
+    {
+      "id": "world-labs",
+      "label": "World Labs"
+    },
+    {
+      "id": "world-models",
+      "label": "World Models"
+    },
+    {
+      "id": "zhen-ding",
+      "label": "Zhen Ding 臻鼎"
+    }
+  ],
+  "groups": [
+    {
+      "name": "公司與組織 Companies",
+      "tags": [
+        "NVIDIA",
+        "AMD",
+        "Apple",
+        "OpenAI",
+        "World Labs",
+        "TSMC 台積電",
+        "ASUS 華碩",
+        "Winbond 華邦電",
+        "Infineon",
+        "Cisco",
+        "Unimicron 欣興",
+        "Zhen Ding 臻鼎"
+      ]
+    },
+    {
+      "name": "AI 運算與硬體 AI Computing",
+      "tags": [
+        "NVIDIA",
+        "AMD",
+        "Apple",
+        "RTX Spark",
+        "Mac mini",
+        "MacBook Pro",
+        "Mac Studio",
+        "M5 Max",
+        "AI PC",
+        "CUDA",
+        "Local AI",
+        "Vera Rubin",
+        "NVLink",
+        "AI Inference",
+        "GPU Economics",
+        "Benchmarking"
+      ]
+    },
+    {
+      "name": "半導體 Semiconductors",
+      "tags": [
+        "TSMC 台積電",
+        "Foundry",
+        "Advanced Nodes",
+        "Advanced Packaging",
+        "Capital Expenditure",
+        "TSMC N2",
+        "TSMC N3",
+        "TSMC A16"
+      ]
+    },
+    {
+      "name": "記憶體 Memory",
+      "tags": [
+        "HBM",
+        "HBM4e",
+        "NOR Flash",
+        "F-RAM",
+        "Winbond 華邦電",
+        "Infineon"
+      ]
+    },
+    {
+      "name": "光通訊與高速互連 Optical Communications & High-Speed Interconnects",
+      "tags": [
+        "Optical Communications",
+        "Optical Transceivers",
+        "NVLink",
+        "NVIDIA",
+        "Cisco"
+      ]
+    },
+    {
+      "name": "電路板與材料 PCB & Materials",
+      "tags": [
+        "PCB",
+        "mSAP",
+        "PTFE",
+        "Glass Fiber",
+        "Glass Fiber Fabric",
+        "Unimicron 欣興",
+        "Zhen Ding 臻鼎"
+      ]
+    },
+    {
+      "name": "AI 工具與開發 AI Tools & Development",
+      "tags": [
+        "OpenAI",
+        "OpenAI Dot",
+        "Codex",
+        "AI Agents",
+        "Agentic Coding",
+        "Automation",
+        "Local AI",
+        "CUDA",
+        "Open Source",
+        "macOS",
+        "Windows",
+        "Linux",
+        "Unix",
+        "AI PC"
+      ]
+    },
+    {
+      "name": "模型與空間智慧 Models & Spatial AI",
+      "tags": [
+        "Frontier Models",
+        "Spatial AI",
+        "World Models",
+        "World Labs",
+        "Nemotron",
+        "Cosmos",
+        "Isaac GR00T",
+        "Marble",
+        "Atlas",
+        "Genie",
+        "GWM-1",
+        "V-JEPA 2",
+        "GAIA"
+      ]
+    },
+    {
+      "name": "產業與商業 Industry & Business",
+      "tags": [
+        "Mergers & Acquisitions",
+        "Capital Expenditure",
+        "Trade Policy",
+        "GPU Economics"
+      ]
+    }
+  ]
+}

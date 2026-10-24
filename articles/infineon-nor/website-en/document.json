@@ -1,0 +1,170 @@
+{
+  "title": "Infineon’s Memory Business Sale: Strategic Focus and Consolidation in NOR Flash",
+  "existing_draft": true,
+  "sections": [
+    {
+      "id": "opening",
+      "title": "Opening",
+      "show_heading": false,
+      "blocks": []
+    },
+    {
+      "id": "section-1",
+      "title": "Infineon’s Memory Business Sale: Why NOR Consolidation Could Benefit the Broader Industry",
+      "blocks": []
+    },
+    {
+      "id": "section-2",
+      "title": "Conclusion",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Infineon’s sale of its NOR Flash and F-RAM business reflects a shift in investment priorities toward growth opportunities such as AI power. For the NOR industry, my assessment is that the transaction is also likely to benefit other established suppliers. Winbond will become a stronger competitor, but the acquisition consolidates existing supply without immediately adding industry capacity. With supply already tight, particularly in high-density NOR, greater concentration could support pricing and profitability across the industry—even for suppliers that do not gain market share.",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "title": "Winbond expands its memory business, bringing back Spansion",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "On September 16, 2026, Infineon and Winbond announced an agreement for Winbond to acquire Infineon’s NOR Flash and F-RAM business in an all-cash transaction with a base purchase price of US$1.12 billion, subject to adjustments.",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "The transaction is expected to close in the second half of 2027, pending regulatory approvals and other closing conditions. After completion, the acquired business will operate independently under the Spansion name, headquartered in the United States. Infineon will retain its other specialty memory products.",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "The scale is significant: Winbond held 23.2% of the global NOR Flash market in 2025, while Infineon held 11.5%. Adding those historical shares gives 34.7%—roughly one-third of the market. The transaction would bring together the largest and fourth-largest suppliers, materially increasing concentration. This calculation illustrates their combined scale using 2025 data; it is not a forecast of their market share when the deal closes.",
+          "links": []
+        },
+        {
+          "type": "exhibit",
+          "id": "exhibit-1"
+        }
+      ]
+    },
+    {
+      "id": "section-4",
+      "title": "Why Infineon is selling: competing demands for capital",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "AI infrastructure is creating substantial demand for power conversion, server power supplies, and processor power delivery. Infineon has identified AI data center power solutions as its most important growth driver and increased its fiscal 2026 investment budget from €2.2 billion to €2.7 billion to accelerate related capacity expansion.",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "That €2.7 billion is a company-wide investment budget, including capital expenditure, other intangible assets, and capitalized development costs. It is not entirely allocated to AI.",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "My interpretation is that maintaining a competitive NOR and F-RAM business still requires ongoing spending on technology, product development, customer qualification, and supply capabilities. Established products and long-standing customer relationships do not eliminate those investment needs.",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Selling the business allows Infineon to concentrate capital and management attention on areas where it sees greater growth opportunities. The decision is therefore best understood as a choice about where to invest the next euro.",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "section-5",
+      "title": "Why the same business makes sense for Winbond",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "For Winbond, memory is already a core business. The acquired technologies, engineering teams, product portfolio, and customer relationships could deepen capabilities that are central to its strategy.",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "This explains why both sides can find the transaction attractive. Infineon narrows its investment priorities, while Winbond expands within its area of specialization. The business may receive greater strategic attention under an owner whose growth ambitions are more directly tied to memory.",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "section-6",
+      "title": "NOR supply is already tight, especially at higher densities",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The acquisition comes against a backdrop of tight NOR supply. AI servers and automotive electronics are supporting demand for high-density products, while effective supply takes time to expand.",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Suppliers are investing, but announced capacity does not immediately become qualified output. Process transitions, yield improvements, and customer qualification all affect how quickly additional supply reaches the market.",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Pricing also differs by product category. High-density NOR remains under upward price pressure, while price increases in lower- and mid-density products are moderating as additional supply becomes available. The strongest supply constraints are therefore concentrated in high-density NOR.",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "section-7",
+      "title": "Why other suppliers can benefit from a stronger competitor",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Winbond’s expanded scale and product portfolio will make it a more capable competitor. However, the transaction transfers ownership of existing operations; it does not immediately increase the industry’s production capacity.",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "That distinction matters in a supply-constrained market. If consolidation supports a more measured approach to capacity investment, it could help sustain the pricing environment and improve returns across established suppliers. Customers seeking an independent second source could also direct business toward alternative vendors.",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "My overall view is therefore positive for the broader NOR supplier base under current supply conditions. Companies such as Macronix could benefit alongside the enlarged Winbond business through firmer pricing and a better product mix, even without increasing market share.",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "A stronger competitor and improving industry profitability can coexist. In this case, the combination of tight supply and greater concentration is why I see the transaction as potentially beneficial beyond the buyer alone.",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "original",
+      "title": "Original",
+      "show_heading": false,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "LinkedIn original",
+          "links": [
+            {
+              "text": "LinkedIn original",
+              "url": "https://www.linkedin.com/pulse/infineons-memory-business-sale-strategic-focus-nor-flash-ian-chang-sn9oc/"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "exhibits": [
+    {
+      "id": "exhibit-1",
+      "kind": "image",
+      "title": "2025 NOR Flash market share",
+      "image": "https://iansnotes.com/wp-content/uploads/2026/10/li-en-infineon-nor-01.jpg",
+      "alt": "2025 NOR Flash market share",
+      "sources": []
+    }
+  ],
+  "notes": "Existing published English text captured from LinkedIn; formatting only. Original publication date is known to day precision; midnight is only a storage placeholder. Image captions are descriptive website labels."
+}

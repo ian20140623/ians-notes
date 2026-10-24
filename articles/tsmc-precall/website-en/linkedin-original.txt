@@ -1,0 +1,9 @@
+TSMC Earnings Preview: Notes from Sell-Side Reports
+TSMC will hold its third-quarter earnings call on October 15 at 2 p.m. Taiwan time. I’ve been reading some sell-side previews and put together the estimates in the chart, along with a few points that caught my attention.
+📈 Similar expectations for revenue growth and strong margins
+The reports generally expect solid third-quarter gross margins and further revenue growth in the fourth quarter. AI demand is also broadening beyond GPUs and ASICs to CPUs and networking chips, supporting demand for advanced process technologies and packaging.
+🏭 Different assumptions about the timing of a potential Texas expansion
+Goldman Sachs includes preliminary spending for a potential Texas site in its forecasts, but expects volume production only after 2032. Citi remains focused on Arizona expansion and does not include Texas investment in its near-term estimates. Morgan Stanley sees a possible long-term need for a Texas site, but has yet to include it in its capacity forecasts.
+Separately, GF Securities suggests that earlier market expectations for potential cooperation with Terafab need to be adjusted, as the scope of that cooperation remains unclear.
+💡 KGI highlights customized HBM4e base dies as a new source of N3 demand
+One point that stood out in KGI’s October 1 report was the potential demand for N3 from customized HBM4e base dies. KGI argues that even as Apple’s and Nvidia’s main chips move to N2 and A16, respectively, in 2028, these base dies could help sustain N3 demand and extend its demand cycle. It’s another angle to consider when looking at TSMC’s continued N3 capacity expansion.

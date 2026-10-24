@@ -1,0 +1,24 @@
+TSMC: 4Q26 revenue guidance above broker estimates; 3Q26 gross margin and 4Q26 margin guidance below estimates
+
+📌 【Summary】Against the five brokers covered in “TSMC Earnings Preview: Notes from Sell-Side Reports,” the 4Q26 revenue guidance midpoint is slightly above the highest estimate. Both 3Q26 gross margin and the 4Q26 margin guidance midpoint are below all five estimates.
+
+📊 4Q26 revenue guidance ahead; 3Q26 and 4Q26 margins below broker estimates
+
+4Q26 revenue guidance is US$52.3–54.3bn. The US$53.3bn midpoint is just above the broker range of US$49.59–53.18bn, though the gap is small.
+
+With dilution from the initial N2 ramp and higher overseas fab costs, the margin gap is more pronounced: 3Q26 gross margin was 66.4%, versus estimates of 66.7–68.0%. The 4Q26 guidance midpoint is 66%, versus 67.2–68.6%.
+
+🏗️ Texas is under evaluation; investment and production timing remain open
+
+Before the call, Goldman Sachs had included preliminary spending on a potential Texas site, while Citi and Morgan Stanley had not included the related investment or capacity. TSMC said it is evaluating a Texas fab and discussing cooperation with a customer planning to build Terafab. TSMC stressed that it must operate the fab; cooperation details remain unsettled.
+
+🏭 N3 expansion confirmed; the HBM4e demand estimate was not
+
+TSMC confirmed continued N3 capacity expansion. At its 1Q26 earnings call, it had already identified HBM base dies as one source of N3 demand. KGI’s preview specifically highlighted HBM4e custom base dies as a source of continuing N3 demand, but the 3Q26 call did not explicitly confirm that estimate.
+
+💰 2026 capex guidance unchanged; no specific 2027 budget yet
+
+2026 capex guidance remains US$60–64bn. No specific 2027 figure was provided. Based on the disclosure pattern at the 3Q23, 3Q24 and 3Q25 earnings calls, 2027 guidance would normally be announced at the January 2027 earnings call.
+
+Pre-call overview on LinkedIn:
+https://lnkd.in/gH4iUPpY

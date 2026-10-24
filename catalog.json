@@ -1,5 +1,39 @@
 [
   {
+    "id": "tpca-ocp-msap",
+    "title": "從TPCA到OCP：光收發模組越來越快，PCB為什麼也得升級？",
+    "author": "Ian Chang",
+    "status": "published",
+    "archived_at": "2026-10-23",
+    "published_at": null,
+    "published_date": "2026-10-23",
+    "website_url": "https://iansnotes.com/zh/tpca-ocp-msap/",
+    "facebook_url": null,
+    "linkedin_article_url": null,
+    "linkedin_post_url": null,
+    "source_version": "P050",
+    "variants": [
+      "full-article.html",
+      "article.txt"
+    ],
+    "line_status": "未登記",
+    "version_mapping": "本機P050全文與2026-10-23網站正文正規化空白後核對一致；五張圖片由發布來源保存",
+    "website_urls": {
+      "zh": "https://iansnotes.com/zh/tpca-ocp-msap/",
+      "en": "https://iansnotes.com/en/optical-transceivers-are-getting-faster-can-pcbs-keep-up/"
+    },
+    "tags": [
+      "Optical Communications",
+      "Optical Transceivers",
+      "PCB",
+      "mSAP",
+      "NVIDIA",
+      "Cisco",
+      "Unimicron 欣興",
+      "Zhen Ding 臻鼎"
+    ]
+  },
+  {
     "id": "world-labs",
     "title": "AMD 收購 World Labs：買下前緣模型團隊之後，與 NVIDIA 的關係會怎麼變？",
     "author": "Ian Chang",
@@ -14,10 +48,35 @@
       "linkedin-en.txt",
       "linkedin-en.html",
       "full-article.html",
-      "line-sharing.txt"
+      "line-sharing.txt",
+      "website-en/article.html"
     ],
     "line_status": "分享成品已保存",
-    "version_mapping": "保存本機成品，尚未逐字核對與平台發布版本一致"
+    "version_mapping": "保存本機成品，尚未逐字核對與平台發布版本一致",
+    "website_url": "https://iansnotes.com/zh/world-labs/",
+    "website_urls": {
+      "zh": "https://iansnotes.com/zh/world-labs/",
+      "en": "https://iansnotes.com/en/world-labs-en/"
+    },
+    "linkedin_original_url": "https://www.linkedin.com/pulse/amds-world-labs-acquisition-what-changes-its-nvidia-ian-chang-q3tbe/",
+    "tags": [
+      "AMD",
+      "NVIDIA",
+      "World Labs",
+      "Mergers & Acquisitions",
+      "Frontier Models",
+      "Spatial AI",
+      "World Models",
+      "Nemotron",
+      "Cosmos",
+      "Isaac GR00T",
+      "Marble",
+      "Atlas",
+      "Genie",
+      "GWM-1",
+      "V-JEPA 2",
+      "GAIA"
+    ]
   },
   {
     "id": "vera-rubin",
@@ -33,10 +92,24 @@
       "facebook-zh-V02.txt",
       "linkedin-en-V02.txt",
       "linkedin-en-V02.html",
-      "line-sharing.txt"
+      "line-sharing.txt",
+      "website-en/article.html"
     ],
     "line_status": "分享成品已保存",
-    "version_mapping": "保存本機成品，尚未逐字核對與平台發布版本一致"
+    "version_mapping": "保存本機成品，尚未逐字核對與平台發布版本一致",
+    "website_url": "https://iansnotes.com/zh/vera-rubin/",
+    "website_urls": {
+      "zh": "https://iansnotes.com/zh/vera-rubin/",
+      "en": "https://iansnotes.com/en/vera-rubin-en/"
+    },
+    "linkedin_original_url": "https://www.linkedin.com/pulse/vera-rubin-delivers-67-better-inference-performance-why-ian-chang-ukmzc/",
+    "tags": [
+      "NVIDIA",
+      "Vera Rubin",
+      "AI Inference",
+      "GPU Economics",
+      "Benchmarking"
+    ]
   },
   {
     "id": "infineon-nor",
@@ -50,9 +123,202 @@
     "linkedin_post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7506266013223706624/",
     "variants": [
       "facebook-zh-V02.txt",
-      "linkedin-en-V01.html"
+      "linkedin-en-V01.html",
+      "website-en/article.html"
     ],
     "line_status": "目前未找到分享成品",
-    "version_mapping": "保存本機成品，尚未逐字核對與平台發布版本一致"
+    "version_mapping": "保存本機成品，尚未逐字核對與平台發布版本一致",
+    "website_url": "https://iansnotes.com/zh/infineon-nor/",
+    "website_urls": {
+      "zh": "https://iansnotes.com/zh/infineon-nor/",
+      "en": "https://iansnotes.com/en/infineon-nor-en/"
+    },
+    "linkedin_original_url": "https://www.linkedin.com/pulse/infineons-memory-business-sale-strategic-focus-nor-flash-ian-chang-sn9oc/",
+    "tags": [
+      "Infineon",
+      "Winbond 華邦電",
+      "NOR Flash",
+      "F-RAM",
+      "Mergers & Acquisitions"
+    ]
+  },
+  {
+    "id": "tsmc-precall",
+    "title": "台積電十月法說會前：券商共同看法與值得留意的觀點",
+    "author": "Ian Chang",
+    "status": "published",
+    "archived_at": "2026-10-23",
+    "variants": [
+      "website-en/article.html"
+    ],
+    "website_url": "https://iansnotes.com/zh/tsmc-precall/",
+    "website_urls": {
+      "zh": "https://iansnotes.com/zh/tsmc-precall/",
+      "en": "https://iansnotes.com/en/tsmc-precall-en/"
+    },
+    "linkedin_original_url": "https://www.linkedin.com/feed/update/urn:li:share:7514913587749122048/",
+    "tags": [
+      "TSMC 台積電",
+      "Foundry",
+      "Advanced Nodes",
+      "HBM",
+      "Advanced Packaging",
+      "HBM4e",
+      "TSMC N2",
+      "TSMC N3",
+      "TSMC A16"
+    ]
+  },
+  {
+    "id": "tsmc-postcall",
+    "title": "台積電法說後：4Q26營收指引優於券商預期，3Q26毛利率與4Q26毛利率指引低於券商預期",
+    "author": "Ian Chang",
+    "status": "published",
+    "archived_at": "2026-10-23",
+    "variants": [
+      "website-en/article.html"
+    ],
+    "website_url": "https://iansnotes.com/zh/tsmc-postcall/",
+    "website_urls": {
+      "zh": "https://iansnotes.com/zh/tsmc-postcall/",
+      "en": "https://iansnotes.com/en/tsmc-postcall-en/"
+    },
+    "linkedin_original_url": "https://www.linkedin.com/feed/update/urn:li:activity:7516543236220502016/",
+    "tags": [
+      "TSMC 台積電",
+      "Foundry",
+      "Advanced Nodes",
+      "HBM",
+      "Capital Expenditure",
+      "HBM4e",
+      "TSMC N2",
+      "TSMC N3"
+    ]
+  },
+  {
+    "id": "ptfe-nvlink-interview",
+    "title": "PTFE 材料在 NVLink 的應用｜三立新聞採訪",
+    "status": "published",
+    "website_url": "https://iansnotes.com/zh/ptfe-nvlink-interview/",
+    "website_urls": {
+      "zh": "https://iansnotes.com/zh/ptfe-nvlink-interview/",
+      "en": null
+    },
+    "tags": [
+      "NVIDIA",
+      "NVLink",
+      "PTFE",
+      "PCB"
+    ]
+  },
+  {
+    "id": "rtx-spark",
+    "title": "RTX Spark 值得現在買嗎？沒有明確 CUDA 需求，建議暫時等待。",
+    "status": "published",
+    "website_url": "https://iansnotes.com/zh/rtx-spark/",
+    "website_urls": {
+      "zh": "https://iansnotes.com/zh/rtx-spark/",
+      "en": null
+    },
+    "tags": [
+      "NVIDIA",
+      "Apple",
+      "ASUS 華碩",
+      "RTX Spark",
+      "MacBook Pro",
+      "Mac Studio",
+      "M5 Max",
+      "CUDA",
+      "Local AI",
+      "Linux",
+      "AI PC"
+    ]
+  },
+  {
+    "id": "vera-rubin-video",
+    "title": "Vera Rubin 的推論成本效益，真的是前一代的 67 倍嗎？",
+    "status": "published",
+    "website_url": "https://iansnotes.com/zh/vera-rubin-video/",
+    "website_urls": {
+      "zh": "https://iansnotes.com/zh/vera-rubin-video/",
+      "en": null
+    },
+    "tags": [
+      "NVIDIA",
+      "Vera Rubin",
+      "AI Inference",
+      "GPU Economics",
+      "Benchmarking"
+    ]
+  },
+  {
+    "id": "glass-fiber-notice",
+    "title": "經濟部玻纖禁令是真的，但市場談的 PCB 玻纖布不在這次公告範圍內",
+    "status": "published",
+    "website_url": "https://iansnotes.com/zh/glass-fiber-notice/",
+    "website_urls": {
+      "zh": "https://iansnotes.com/zh/glass-fiber-notice/",
+      "en": null
+    },
+    "tags": [
+      "Glass Fiber Fabric",
+      "Glass Fiber",
+      "PCB",
+      "Trade Policy"
+    ]
+  },
+  {
+    "id": "openai-dot",
+    "title": "OpenAI Dot：第一印象",
+    "status": "published",
+    "website_url": "https://iansnotes.com/zh/openai-dot/",
+    "website_urls": {
+      "zh": "https://iansnotes.com/zh/openai-dot/",
+      "en": null
+    },
+    "tags": [
+      "OpenAI",
+      "OpenAI Dot",
+      "AI Agents",
+      "Automation",
+      "Codex"
+    ]
+  },
+  {
+    "id": "mac-ai-agent",
+    "title": "想開始用 AI Agent，要不要買一台 Mac？",
+    "status": "published",
+    "website_url": "https://iansnotes.com/zh/mac-ai-agent/",
+    "website_urls": {
+      "zh": "https://iansnotes.com/zh/mac-ai-agent/",
+      "en": null
+    },
+    "tags": [
+      "Apple",
+      "AI Agents",
+      "Agentic Coding",
+      "Mac mini",
+      "macOS",
+      "AI PC"
+    ]
+  },
+  {
+    "id": "windows-unix-agent",
+    "title": "明明用 Windows，為什麼 AI Agent 都像是在寫 Linux 程式？",
+    "status": "published",
+    "website_url": "https://iansnotes.com/zh/windows-unix-agent/",
+    "website_urls": {
+      "zh": "https://iansnotes.com/zh/windows-unix-agent/",
+      "en": null
+    },
+    "tags": [
+      "AI Agents",
+      "Agentic Coding",
+      "Windows",
+      "Linux",
+      "Unix",
+      "Open Source",
+      "AI PC"
+    ]
   }
 ]

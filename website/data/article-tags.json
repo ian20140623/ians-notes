@@ -1,0 +1,290 @@
+{
+  "schema_version": 1,
+  "zh": [
+    {
+      "slug": "tpca-ocp-msap",
+      "title": "從TPCA到OCP：光收發模組越來越快，PCB為什麼也得升級？",
+      "url": "https://iansnotes.com/zh/tpca-ocp-msap/",
+      "tags": [
+        "Optical Communications",
+        "Optical Transceivers",
+        "PCB",
+        "mSAP",
+        "NVIDIA",
+        "Cisco",
+        "Unimicron 欣興",
+        "Zhen Ding 臻鼎"
+      ]
+    },
+    {
+      "slug": "tsmc-postcall",
+      "title": "台積電法說後：4Q26營收指引優於券商預期，3Q26毛利率與4Q26毛利率指引低於券商預期",
+      "url": "https://iansnotes.com/zh/tsmc-postcall/",
+      "tags": [
+        "TSMC 台積電",
+        "Foundry",
+        "Advanced Nodes",
+        "HBM",
+        "Capital Expenditure",
+        "HBM4e",
+        "TSMC N2",
+        "TSMC N3"
+      ]
+    },
+    {
+      "slug": "ptfe-nvlink-interview",
+      "title": "PTFE 材料在 NVLink 的應用｜三立新聞採訪",
+      "url": "https://iansnotes.com/zh/ptfe-nvlink-interview/",
+      "tags": [
+        "NVIDIA",
+        "NVLink",
+        "PTFE",
+        "PCB"
+      ]
+    },
+    {
+      "slug": "rtx-spark",
+      "title": "RTX Spark 值得現在買嗎？沒有明確 CUDA 需求，建議暫時等待。",
+      "url": "https://iansnotes.com/zh/rtx-spark/",
+      "tags": [
+        "NVIDIA",
+        "Apple",
+        "ASUS 華碩",
+        "RTX Spark",
+        "MacBook Pro",
+        "Mac Studio",
+        "M5 Max",
+        "CUDA",
+        "Local AI",
+        "Linux",
+        "AI PC"
+      ]
+    },
+    {
+      "slug": "tsmc-precall",
+      "title": "台積電十月法說會前：券商共同看法與值得留意的觀點",
+      "url": "https://iansnotes.com/zh/tsmc-precall/",
+      "tags": [
+        "TSMC 台積電",
+        "Foundry",
+        "Advanced Nodes",
+        "HBM",
+        "Advanced Packaging",
+        "HBM4e",
+        "TSMC N2",
+        "TSMC N3",
+        "TSMC A16"
+      ]
+    },
+    {
+      "slug": "vera-rubin-video",
+      "title": "Vera Rubin 的推論成本效益，真的是前一代的 67 倍嗎？",
+      "url": "https://iansnotes.com/zh/vera-rubin-video/",
+      "tags": [
+        "NVIDIA",
+        "Vera Rubin",
+        "AI Inference",
+        "GPU Economics",
+        "Benchmarking"
+      ]
+    },
+    {
+      "slug": "glass-fiber-notice",
+      "title": "經濟部玻纖禁令是真的，但市場談的 PCB 玻纖布不在這次公告範圍內",
+      "url": "https://iansnotes.com/zh/glass-fiber-notice/",
+      "tags": [
+        "Glass Fiber Fabric",
+        "Glass Fiber",
+        "PCB",
+        "Trade Policy"
+      ]
+    },
+    {
+      "slug": "openai-dot",
+      "title": "OpenAI Dot：第一印象",
+      "url": "https://iansnotes.com/zh/openai-dot/",
+      "tags": [
+        "OpenAI",
+        "OpenAI Dot",
+        "AI Agents",
+        "Automation",
+        "Codex"
+      ]
+    },
+    {
+      "slug": "mac-ai-agent",
+      "title": "想開始用 AI Agent，要不要買一台 Mac？",
+      "url": "https://iansnotes.com/zh/mac-ai-agent/",
+      "tags": [
+        "Apple",
+        "AI Agents",
+        "Agentic Coding",
+        "Mac mini",
+        "macOS",
+        "AI PC"
+      ]
+    },
+    {
+      "slug": "windows-unix-agent",
+      "title": "明明用 Windows，為什麼 AI Agent 都像是在寫 Linux 程式？",
+      "url": "https://iansnotes.com/zh/windows-unix-agent/",
+      "tags": [
+        "AI Agents",
+        "Agentic Coding",
+        "Windows",
+        "Linux",
+        "Unix",
+        "Open Source",
+        "AI PC"
+      ]
+    },
+    {
+      "slug": "world-labs",
+      "title": "AMD 收購 World Labs：買下前緣模型團隊之後，與 NVIDIA 的關係會怎麼變？",
+      "url": "https://iansnotes.com/zh/world-labs/",
+      "tags": [
+        "AMD",
+        "NVIDIA",
+        "World Labs",
+        "Mergers & Acquisitions",
+        "Frontier Models",
+        "Spatial AI",
+        "World Models",
+        "Nemotron",
+        "Cosmos",
+        "Isaac GR00T",
+        "Marble",
+        "Atlas",
+        "Genie",
+        "GWM-1",
+        "V-JEPA 2",
+        "GAIA"
+      ]
+    },
+    {
+      "slug": "vera-rubin",
+      "title": "Vera Rubin 推論效能提升67倍，為什麼舊 GPU 還沒變成電子垃圾？",
+      "url": "https://iansnotes.com/zh/vera-rubin/",
+      "tags": [
+        "NVIDIA",
+        "Vera Rubin",
+        "AI Inference",
+        "GPU Economics",
+        "Benchmarking"
+      ]
+    },
+    {
+      "slug": "infineon-nor",
+      "title": "Infineon 出售記憶體業務：資源聚焦與 NOR 產業整合",
+      "url": "https://iansnotes.com/zh/infineon-nor/",
+      "tags": [
+        "Infineon",
+        "Winbond 華邦電",
+        "NOR Flash",
+        "F-RAM",
+        "Mergers & Acquisitions"
+      ]
+    }
+  ],
+  "en": [
+    {
+      "slug": "tpca-ocp-msap",
+      "title": "Optical Transceivers Are Getting Faster. Can PCBs Keep Up?",
+      "url": "https://iansnotes.com/en/optical-transceivers-are-getting-faster-can-pcbs-keep-up/",
+      "tags": [
+        "Optical Communications",
+        "Optical Transceivers",
+        "PCB",
+        "mSAP",
+        "NVIDIA",
+        "Cisco",
+        "Unimicron 欣興",
+        "Zhen Ding 臻鼎"
+      ],
+      "id": 10045
+    },
+    {
+      "slug": "tsmc-precall",
+      "title": "TSMC Earnings Preview: Notes from Sell-Side Reports",
+      "url": "https://iansnotes.com/en/tsmc-precall-en/",
+      "tags": [
+        "TSMC 台積電",
+        "Foundry",
+        "Advanced Nodes",
+        "HBM",
+        "Advanced Packaging",
+        "HBM4e",
+        "TSMC N2",
+        "TSMC N3",
+        "TSMC A16"
+      ],
+      "id": 11000
+    },
+    {
+      "slug": "tsmc-postcall",
+      "title": "TSMC: 4Q26 revenue guidance above broker estimates; 3Q26 gross margin and 4Q26 margin guidance below estimates",
+      "url": "https://iansnotes.com/en/tsmc-postcall-en/",
+      "tags": [
+        "TSMC 台積電",
+        "Foundry",
+        "Advanced Nodes",
+        "HBM",
+        "Capital Expenditure",
+        "HBM4e",
+        "TSMC N2",
+        "TSMC N3"
+      ],
+      "id": 11001
+    },
+    {
+      "slug": "world-labs",
+      "title": "AMD’s World Labs Acquisition: What Changes in Its Relationship with NVIDIA?",
+      "url": "https://iansnotes.com/en/world-labs-en/",
+      "tags": [
+        "AMD",
+        "NVIDIA",
+        "World Labs",
+        "Mergers & Acquisitions",
+        "Frontier Models",
+        "Spatial AI",
+        "World Models",
+        "Nemotron",
+        "Cosmos",
+        "Isaac GR00T",
+        "Marble",
+        "Atlas",
+        "Genie",
+        "GWM-1",
+        "V-JEPA 2",
+        "GAIA"
+      ],
+      "id": 11002
+    },
+    {
+      "slug": "vera-rubin",
+      "title": "If Vera Rubin Delivers 67× Better Inference Performance, Why Aren’t Older GPUs Already E-Waste?",
+      "url": "https://iansnotes.com/en/vera-rubin-en/",
+      "tags": [
+        "NVIDIA",
+        "Vera Rubin",
+        "AI Inference",
+        "GPU Economics",
+        "Benchmarking"
+      ],
+      "id": 11003
+    },
+    {
+      "slug": "infineon-nor",
+      "title": "Infineon’s Memory Business Sale: Strategic Focus and Consolidation in NOR Flash",
+      "url": "https://iansnotes.com/en/infineon-nor-en/",
+      "tags": [
+        "Infineon",
+        "Winbond 華邦電",
+        "NOR Flash",
+        "F-RAM",
+        "Mergers & Acquisitions"
+      ],
+      "id": 11004
+    }
+  ]
+}
