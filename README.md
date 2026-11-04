@@ -2,6 +2,8 @@
 
 Ian Chang 的科技與產業觀察，以及已達發表水準的文章存檔。
 
+- [太空晶片為什麼要跑得更熱？](articles/space-chip-thermal/) · [中文全文](https://iansnotes.com/zh/space-chip-thermal/) · [English](https://iansnotes.com/en/space-chip-thermal-en/)
+
 - [從TPCA到OCP：光收發模組越來越快，PCB為什麼也得升級？](articles/tpca-ocp-msap/index.html) · [網站原文](https://iansnotes.com/zh/tpca-ocp-msap/)
 - [AMD 收購 World Labs：買下前緣模型團隊之後，與 NVIDIA 的關係會怎麼變？](articles/world-labs/index.html) · [Facebook](https://www.facebook.com/permalink.php?story_fbid=pfbid0aJToAL3VACgxPCRthsZb5HgRqaSGH28qJ4NwD1GQYZA1nc2Kpps4Et8tUy2Lbps8l&id=61594601325929) · [LinkedIn](https://www.linkedin.com/pulse/amds-world-labs-acquisition-what-changes-its-nvidia-ian-chang-q3tbe/)
 - [Vera Rubin 推論效能提升67倍，為什麼舊 GPU 還沒變成電子垃圾？](articles/vera-rubin/index.html) · [Facebook](https://www.facebook.com/permalink.php?story_fbid=pfbid0G3EVuREH4Z2VA6kdqfrjKb5Yrz8STShG89M6PjGKucsCdMYRZsz17WgZZ8S3TN7Ql&id=61594601325929) · [LinkedIn](https://www.linkedin.com/pulse/vera-rubin-delivers-67-better-inference-performance-why-ian-chang-ukmzc/)

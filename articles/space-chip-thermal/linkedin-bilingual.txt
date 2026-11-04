@@ -1,0 +1,7 @@
+Elon Musk said in an interview that raising the operating temperature by 20% could halve radiator mass. Space is a vacuum, with no air to carry heat away. Why would running chips hotter make cooling in space easier?
+
+Read more: https://iansnotes.com/en/space-chip-thermal-en/
+
+Elon Musk 在訪談中提到，把工作溫度提高 20%，散熱器重量就可能減半。太空中是真空，沒有空氣帶走熱量，為什麼晶片跑得更熱，反而更有利於太空散熱？
+
+閱讀全文：https://iansnotes.com/zh/space-chip-thermal/

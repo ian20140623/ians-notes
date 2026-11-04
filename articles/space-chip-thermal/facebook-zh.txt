@@ -1,0 +1,3 @@
+Elon Musk 在訪談中提到，把工作溫度提高 20%，散熱器重量就可能減半。太空中是真空，沒有空氣帶走熱量，為什麼晶片跑得更熱，反而更有利於太空散熱？
+
+閱讀全文：https://iansnotes.com/zh/space-chip-thermal/

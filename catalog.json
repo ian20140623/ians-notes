@@ -1,5 +1,31 @@
 [
   {
+    "id": "space-chip-thermal",
+    "title": "太空晶片為什麼要跑得更熱？",
+    "title_en": "Why Run Space Chips Hotter?",
+    "author": "Ian Chang",
+    "status": "published",
+    "archived_at": "2026-11-04",
+    "published_date": "2026-11-04",
+    "published_at": null,
+    "website_url": "https://iansnotes.com/zh/space-chip-thermal/",
+    "website_urls": {
+      "zh": "https://iansnotes.com/zh/space-chip-thermal/",
+      "en": "https://iansnotes.com/en/space-chip-thermal-en/"
+    },
+    "facebook_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0LTtx5GeBWajDBEd2uAqVLK1uFL6rXMyaefvppAj4zmQ4GVrQneQd1iVmTQNgeKJ8l&id=61594601325929",
+    "linkedin_post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7523641839724396544/",
+    "variants": [
+      "full-article.html",
+      "article-en.html",
+      "article.txt",
+      "article-en.txt",
+      "facebook-zh.txt",
+      "linkedin-bilingual.txt"
+    ],
+    "version_mapping": "中英文網站正文由已發布版本保存；正文文字與本次發文成品核對一致，圖片連結改為本資料夾相對路徑。"
+  },
+  {
     "id": "tpca-ocp-msap",
     "title": "從TPCA到OCP：光收發模組越來越快，PCB為什麼也得升級？",
     "author": "Ian Chang",

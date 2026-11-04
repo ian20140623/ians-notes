@@ -1,0 +1,70 @@
+[
+  {
+    "file": "README.md",
+    "sha256": "fb708274464fc555f7bd550c1aa59fe3eb9a00ab1fb6ca2798fcb052ea08e009"
+  },
+  {
+    "file": "article-en.html",
+    "sha256": "e7efff9d261131f212553f730f8af25f8ba2a23e328b82618be60a957ceb2526"
+  },
+  {
+    "file": "article-en.txt",
+    "sha256": "650c653c9d4881d36b5da75c017bd9299d674838951a453aa46b960bdc1fa7b4"
+  },
+  {
+    "file": "article.txt",
+    "sha256": "1b237df6a5891cf1d7464feffc0f948d2343af39f8ca9b3c8722b26399cc19d4"
+  },
+  {
+    "file": "document-en.json",
+    "sha256": "e4fafca1ac9f7f42458c63f46005b4871f98d69ab8e517d5b15a54ed03818230"
+  },
+  {
+    "file": "document-zh.json",
+    "sha256": "5e27223ceffb501bd10041190b3d6726dbe101007f58f45c497aaa73b8aab138"
+  },
+  {
+    "file": "facebook-zh.txt",
+    "sha256": "d5d4615d761646312db0438cecb9c05ff84abd8d479bada5594cf9ced636f748"
+  },
+  {
+    "file": "full-article.html",
+    "sha256": "7deeb22b571da5564f3c063205a8b3f3ebdf40fa02189ccbf33feb8eca3cce4a"
+  },
+  {
+    "file": "images/formula-en.png",
+    "sha256": "974fd498c308ea1220da05152dee68f90a48164fcb87e6651667ad43fbe02829"
+  },
+  {
+    "file": "images/formula-zh.png",
+    "sha256": "24f056f8a8578b9c4b62df09de7b01ecaafa71a2909794c8695a7dcbf55dcffc"
+  },
+  {
+    "file": "images/musk-interview.png",
+    "sha256": "97248ab2d78d3636879c63d6df16c340625fb26b2280aeec66bbf616e46544c5"
+  },
+  {
+    "file": "images/temperature-en.png",
+    "sha256": "0c6ca8ac3f1e1667a3b17efd1e9b6ad8954276c67a02a0f255cb4431be4ffe0a"
+  },
+  {
+    "file": "images/temperature-zh.png",
+    "sha256": "8773d9465eb5a0b4b60eff9f50af403d81daf299483bf7f4abaf17128a386491"
+  },
+  {
+    "file": "index.html",
+    "sha256": "91cc6dbcd4f7d29d038bc26c88ba6e284f5c921d951cf0edd148db97e098c7d9"
+  },
+  {
+    "file": "linkedin-bilingual.txt",
+    "sha256": "263754a72e93674c94f7fd783bacad061b7bfb8c5deb44eb3a6e2ae8e0e5bc2a"
+  },
+  {
+    "file": "publication.json",
+    "sha256": "146dfd41dbd7586383780bcb9ccc9496006af4d70e28d3fbf58acec3f7ffa7c7"
+  },
+  {
+    "file": "sources.md",
+    "sha256": "55dd13319c74574e46a9e8fea1a8f69922394f40c985e1d989bc454b52ff4fa6"
+  }
+]
