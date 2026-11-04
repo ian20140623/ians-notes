@@ -2,6 +2,22 @@
   "schema_version": 1,
   "zh": [
     {
+      "slug": "space-chip-thermal",
+      "title": "太空晶片為什麼要跑得更熱？",
+      "url": "https://iansnotes.com/zh/space-chip-thermal/",
+      "tags": [
+        "Data Centers",
+        "Liquid Cooling",
+        "Space Data Centers",
+        "Thermal Management",
+        "Radiative Cooling",
+        "Thermal Cycling",
+        "Temperature Gradient",
+        "Elon Musk"
+      ],
+      "id": 11201
+    },
+    {
       "slug": "tpca-ocp-msap",
       "title": "從TPCA到OCP：光收發模組越來越快，PCB為什麼也得升級？",
       "url": "https://iansnotes.com/zh/tpca-ocp-msap/",
@@ -187,6 +203,22 @@
     }
   ],
   "en": [
+    {
+      "slug": "space-chip-thermal-en",
+      "title": "Why Run Space Chips Hotter?",
+      "url": "https://iansnotes.com/en/space-chip-thermal-en/",
+      "tags": [
+        "Data Centers",
+        "Liquid Cooling",
+        "Space Data Centers",
+        "Thermal Management",
+        "Radiative Cooling",
+        "Thermal Cycling",
+        "Temperature Gradient",
+        "Elon Musk"
+      ],
+      "id": 11207
+    },
     {
       "slug": "tpca-ocp-msap",
       "title": "Optical Transceivers Are Getting Faster. Can PCBs Keep Up?",

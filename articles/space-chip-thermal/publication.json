@@ -22,5 +22,15 @@
     "facebook-zh.txt",
     "linkedin-bilingual.txt"
   ],
-  "version_mapping": "中英文網站正文由已發布版本保存；正文文字與本次發文成品核對一致，圖片連結改為本資料夾相對路徑。"
+  "version_mapping": "中英文網站正文由已發布版本保存；正文文字與本次發文成品核對一致，圖片連結改為本資料夾相對路徑。",
+  "tags": [
+    "Data Centers",
+    "Liquid Cooling",
+    "Space Data Centers",
+    "Thermal Management",
+    "Radiative Cooling",
+    "Thermal Cycling",
+    "Temperature Gradient",
+    "Elon Musk"
+  ]
 }

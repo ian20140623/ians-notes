@@ -5,7 +5,7 @@
   },
   {
     "file": "article-en.html",
-    "sha256": "e7efff9d261131f212553f730f8af25f8ba2a23e328b82618be60a957ceb2526"
+    "sha256": "b939936daaaf84ab1be9e3c3bf4faaed347f13d1c61cfc7b5bb9beaa43d7e21a"
   },
   {
     "file": "article-en.txt",
@@ -17,11 +17,11 @@
   },
   {
     "file": "document-en.json",
-    "sha256": "e4fafca1ac9f7f42458c63f46005b4871f98d69ab8e517d5b15a54ed03818230"
+    "sha256": "5d2ca35b684c70e6d284198296186e61df78efe6ff6f64b08c7588b8d9ea1efe"
   },
   {
     "file": "document-zh.json",
-    "sha256": "5e27223ceffb501bd10041190b3d6726dbe101007f58f45c497aaa73b8aab138"
+    "sha256": "66db37dc9561d8d220cf8b0b08ece9fd5898bf6dc47cd17779498a694de97dc6"
   },
   {
     "file": "facebook-zh.txt",
@@ -29,7 +29,7 @@
   },
   {
     "file": "full-article.html",
-    "sha256": "7deeb22b571da5564f3c063205a8b3f3ebdf40fa02189ccbf33feb8eca3cce4a"
+    "sha256": "446529ba73218d4e8145bf0a3f55d2fcd3e3068ed5fdf1c1bee8f36ed2e05cdc"
   },
   {
     "file": "images/formula-en.png",
@@ -61,7 +61,7 @@
   },
   {
     "file": "publication.json",
-    "sha256": "146dfd41dbd7586383780bcb9ccc9496006af4d70e28d3fbf58acec3f7ffa7c7"
+    "sha256": "4d0c096e33fc352886e438057a557c237504fbdd25cbad450eb36d4f544c5687"
   },
   {
     "file": "sources.md",

@@ -70,6 +70,14 @@
       "label": "CUDA"
     },
     {
+      "id": "data-centers",
+      "label": "Data Centers"
+    },
+    {
+      "id": "elon-musk",
+      "label": "Elon Musk"
+    },
+    {
       "id": "f-ram",
       "label": "F-RAM"
     },
@@ -124,6 +132,10 @@
     {
       "id": "linux",
       "label": "Linux"
+    },
+    {
+      "id": "liquid-cooling",
+      "label": "Liquid Cooling"
     },
     {
       "id": "local-ai",
@@ -206,12 +218,32 @@
       "label": "PTFE"
     },
     {
+      "id": "radiative-cooling",
+      "label": "Radiative Cooling"
+    },
+    {
       "id": "rtx-spark",
       "label": "RTX Spark"
     },
     {
+      "id": "space-data-centers",
+      "label": "Space Data Centers"
+    },
+    {
       "id": "spatial-ai",
       "label": "Spatial AI"
+    },
+    {
+      "id": "temperature-gradient",
+      "label": "Temperature Gradient"
+    },
+    {
+      "id": "thermal-cycling",
+      "label": "Thermal Cycling"
+    },
+    {
+      "id": "thermal-management",
+      "label": "Thermal Management"
     },
     {
       "id": "trade-policy",
@@ -399,6 +431,19 @@
         "Capital Expenditure",
         "Trade Policy",
         "GPU Economics"
+      ]
+    },
+    {
+      "name": "太空與熱管理 Space & Thermal Management",
+      "tags": [
+        "Data Centers",
+        "Liquid Cooling",
+        "Space Data Centers",
+        "Thermal Management",
+        "Radiative Cooling",
+        "Thermal Cycling",
+        "Temperature Gradient",
+        "Elon Musk"
       ]
     }
   ]
