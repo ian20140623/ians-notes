@@ -1,6 +1,7 @@
 {
-  "title": "Why Run Space Chips Hotter?",
+  "title": "Do Space Chips Have to Run Hotter?",
   "existing_draft": true,
+  "source_version": "A036",
   "sections": [
     {
       "id": "opening",
@@ -9,23 +10,23 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "In an interview, Elon Musk said that raising the operating temperature by 20% on the absolute temperature scale, in K, could roughly halve radiator mass. Why would running chips at higher temperatures help with cooling in space? The answer starts with how heat leaves a spacecraft.",
+          "text": "In an interview, Elon Musk said that raising the operating temperature by 20% on the absolute temperature scale, in K, could roughly halve radiator mass. A hotter radiator does emit more thermal radiation—but do the chips have to get hotter too? We need to separate the radiator’s physical advantage from the limits of the circuitry inside the chips.",
           "links": []
         },
         {
           "type": "exhibit",
-          "id": "musk-interview"
+          "id": "exhibit-photo"
         },
         {
           "type": "paragraph",
-          "text": "On Earth, servers use air or coolant to carry heat away. Facility equipment then rejects that heat outdoors, for example through air convection or water evaporation in a cooling tower. As long as the chips can still be adequately cooled, allowing a higher coolant temperature can also reduce the use of chillers.",
+          "text": "On Earth, servers use air or coolant to carry heat away. Facility equipment then rejects that heat outdoors, for example through air convection or water evaporation in a cooling tower. As long as the chips can still be adequately cooled, allowing a higher coolant temperature may also reduce the use of chillers.",
           "links": [
             {
               "text": "water evaporation in a cooling tower",
               "url": "https://green.googleblog.com/2012/11/getting-heat-out-look-at-evaporative.html"
             },
             {
-              "text": "allowing a higher coolant temperature can also reduce the use of chillers",
+              "text": "allowing a higher coolant temperature may also reduce the use of chillers",
               "url": "https://www.energy.gov/sites/default/files/2024-07/best-practice-guide-data-center-design.pdf"
             }
           ]
@@ -49,10 +50,10 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Under the Stefan–Boltzmann equation (gray-body radiation), the power emitted by a radiator is:",
+          "text": "Under the Stefan–Boltzmann equation for gray-body radiation, the power emitted by a radiator is:",
           "links": [
             {
-              "text": "Stefan–Boltzmann equation (gray-body radiation)",
+              "text": "Stefan–Boltzmann equation for gray-body radiation",
               "url": "https://tfaws.nasa.gov/wp-content/uploads/On-Orbit_Thermal_Environments_TFAWS_2014.pdf#page=16"
             }
           ]
@@ -89,16 +90,130 @@
         },
         {
           "type": "paragraph",
-          "text": "The temperature being raised here is the radiator’s. A chip’s ability to tolerate more heat only delivers this mass advantage if it also allows the radiator to operate at a higher temperature.",
+          "text": "Musk was talking about designing chips to operate at higher temperatures. But the temperature in the fourth-power relationship is the radiator’s. Hotter chips only offer this potential mass benefit if they also allow the radiator to operate at a higher temperature. Another approach is to use a heat pump to separate the temperatures at the two ends.",
+          "links": [
+            {
+              "text": "Musk was talking about designing chips to operate at higher temperatures",
+              "url": "https://www.dwarkesh.com/p/elon-musk"
+            }
+          ]
+        },
+        {
+          "type": "exhibit",
+          "id": "exhibit-thermal-formula"
+        },
+        {
+          "type": "exhibit",
+          "id": "exhibit-thermal-scenarios"
+        }
+      ]
+    },
+    {
+      "id": "chip-temperature",
+      "title": "What does running hotter cost the circuitry?",
+      "show_heading": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Product qualification conditions offer a reference for the temperatures at which chips can operate over the long term. For example, Nvidia’s H100 PCIe documentation lists thermal qualification temperatures of 87°C for the average of the GPU’s internal sensors and 95°C for the highest HBM sensor reading.",
+          "links": [
+            {
+              "text": "thermal qualification temperatures of 87°C for the average of the GPU’s internal sensors and 95°C for the highest HBM sensor reading",
+              "url": "https://www.nvidia.com/content/dam/en-zz/Solutions/gtcs22/data-center/h100/PB-11133-001_v01.pdf#page=10"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Higher temperatures may increase leakage and power consumption, and change transistor characteristics, affecting timing margins in logic circuits. Higher temperatures may also increase the read access time of on-chip SRAM caches, limiting their operating speed.",
+          "links": [
+            {
+              "text": "affecting timing margins in logic circuits",
+              "url": "https://www.intel.com/content/www/us/en/security/security-practices/blogs/software-based-thermal-glitching.html"
+            },
+            {
+              "text": "Higher temperatures may also increase the read access time of on-chip SRAM caches, limiting their operating speed",
+              "url": "https://doi.org/10.1109/ACCESS.2014.2323233"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Over time, high temperatures and voltage stress may accelerate aging. Bias temperature instability (BTI) gradually shifts transistor characteristics, while electromigration can form voids or material buildups in metal interconnects, eventually causing connection failures.",
+          "links": [
+            {
+              "text": "Bias temperature instability (BTI)",
+              "url": "https://www.ti.com/lit/an/spradi9/spradi9.pdf"
+            },
+            {
+              "text": "electromigration can form voids or material buildups in metal interconnects",
+              "url": "https://www.analog.com/en/resources/analog-dialogue/articles/high-temperature-electronic-pose-design-challenges.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "heat-pump",
+      "title": "A hotter radiator does not have to mean hotter chips",
+      "show_heading": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A heat pump offers another route: it uses external energy to move heat from the chips to a hotter radiator. In a vapor-compression heat pump, the refrigerant evaporates to absorb heat, the compressor does work to raise its pressure and temperature, and the refrigerant then condenses at the hot end, transferring heat to the radiator. The refrigerant circulates in a closed loop, while the radiator emits the heat to the outside.",
+          "links": [
+            {
+              "text": "A heat pump",
+              "url": "https://ntrs.nasa.gov/api/citations/19950010003/downloads/19950010003.pdf#page=13"
+            },
+            {
+              "text": "In a vapor-compression heat pump, the refrigerant evaporates to absorb heat, the compressor does work to raise its pressure and temperature, and the refrigerant then condenses at the hot end, transferring heat to the radiator",
+              "url": "https://ntrs.nasa.gov/api/citations/19950010003/downloads/19950010003.pdf#page=13"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "This is not a new idea for space. A NASA-funded lunar-base study in 1993 analyzed using heat pumps to transfer low-temperature waste heat to hotter radiators. ESA completed a heat-pump concept study in 2016 and published test results for its high-speed compressor prototype in 2017. Heat pumps have therefore been a subject of space thermal-control research for decades.",
+          "links": [
+            {
+              "text": "A NASA-funded lunar-base study in 1993",
+              "url": "https://ntrs.nasa.gov/api/citations/19950010003/downloads/19950010003.pdf"
+            },
+            {
+              "text": "ESA completed a heat-pump concept study in 2016 and published test results for its high-speed compressor prototype in 2017",
+              "url": "https://www.esa.int/articles/heat-pump-conceptual-study-and-design"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "More recently, Starcloud’s orbital data-center patent application, filed in 2025 and published in 2026, also lists heat pumps as an option for raising radiator temperature and reducing radiating area. I have not found direct public evidence that SpaceX, Nvidia, or Google has adopted this kind of space heat-pump design. Based on the principles and research above, I suspect heat pumps may well be a direction these companies are exploring, but that remains to be confirmed by public information.",
+          "links": [
+            {
+              "text": "Starcloud’s orbital data-center patent application, filed in 2025 and published in 2026",
+              "url": "https://patents.google.com/patent/WO2026055239A1/en"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "This would allow the chips to remain cooler than the radiator, potentially reducing additional circuit and aging stresses. However, the radiator must also reject the energy consumed by the heat pump. If the chips generate 100 W of heat and the heat pump consumes another 30 W, the radiator must reject about 130 W. These numbers are illustrative, not the efficiency of a particular device.",
+          "links": [
+            {
+              "text": "the radiator must also reject the energy consumed by the heat pump",
+              "url": "https://ntrs.nasa.gov/api/citations/19950010003/downloads/19950010003.pdf#page=13"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Although the radiator’s thermal radiation per unit area increases, the heat pump requires additional energy and adds equipment mass. Whether the overall system uses energy more efficiently or rejects heat more effectively therefore requires an assessment of power consumption, mass, and reliability together.",
           "links": []
         },
         {
           "type": "exhibit",
-          "id": "thermal-formula"
-        },
-        {
-          "type": "exhibit",
-          "id": "thermal-scenarios"
+          "id": "exhibit-jpl-heat-pump"
         }
       ]
     },
@@ -109,10 +224,10 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Space hardware may repeatedly move between sunlight and Earth’s shadow. For the International Space Station, ESA describes external temperatures reaching about +121°C in sunlight and −157°C in darkness. Changes in chip workload also change the heat generated, potentially increasing the equipment’s hot-to-cold variation. Thermal control must moderate these changes so that the external extremes do not become the temperatures experienced by the chips.",
+          "text": "Space hardware may repeatedly move between sunlight and Earth’s shadow. For the International Space Station, external temperatures in sunlight and darkness can reach about +121°C and −157°C, respectively. Changes in chip workload also change the heat generated, potentially increasing the equipment’s hot-to-cold variation. Thermal control must moderate these changes so that the external extremes do not become the temperatures experienced by the chips.",
           "links": [
             {
-              "text": "+121°C in sunlight and −157°C in darkness",
+              "text": "+121°C and −157°C",
               "url": "https://www.esa.int/ESA_Multimedia/Images/2026/07/Bathed_in_sunlight"
             }
           ]
@@ -139,7 +254,7 @@
         },
         {
           "type": "paragraph",
-          "text": "This repeated strain can also worsen existing weaknesses. An investigation into a coolant leak on the ISS localized the problem to seals in a quick disconnect. Seal defects and delamination of the underlying plating were among the most likely causes, with on-orbit thermal cycling further aggravating the delamination. A cooling system therefore needs more than a leak-free connection today: its connectors and seals must remain intact through long-term temperature changes.",
+          "text": "This repeated strain can also worsen existing weaknesses. An investigation into a coolant leak on the ISS localized the problem to the seals in a quick disconnect. Seal defects and delamination of the underlying plating were identified as the most likely causes, with on-orbit thermal cycling further aggravating the delamination. A cooling system therefore needs more than a leak-free connection today: its connectors and seals must remain intact through long-term temperature changes.",
           "links": [
             {
               "text": "on-orbit thermal cycling further aggravating the delamination",
@@ -169,7 +284,45 @@
         },
         {
           "type": "paragraph",
-          "text": "A higher operating temperature can improve heat rejection in space, but the system must still withstand operation, shutdown, and environmental changes. Chip heat tolerance, radiator mass reduction, and the long-term reliability of joints and seals must be considered together to turn the physics of high-temperature heat rejection into a practical space cooling system.",
+          "text": "Raising radiator temperature can increase emitted power, but the system must still withstand operation, shutdown, and environmental changes. Whether the design uses hotter chips or heat pumps, radiator mass savings must be weighed against the power consumption, lifetime, and joint and seal reliability of the entire system.",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "conclusion",
+      "title": "Conclusion",
+      "show_heading": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The hotter the radiator, the more power it emits per unit area: that is the advantage of the fourth-power relationship in the Stefan–Boltzmann equation. Capturing that advantage requires a hotter radiator; the chips do not necessarily have to get hotter too.",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Running chips hot comes at a cost to circuit stability and aging. I therefore suspect that using a heat pump to move heat from the chips to a hotter radiator may be more worth exploring than operating the chips at extremely high temperatures. But heat pumps require additional energy and add equipment mass, so the whole system needs to be assessed.",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Temperature changes in space also test the cooling system’s long-term reliability. Differences in thermal expansion, temperature gradients within the equipment, and coolant freeze–thaw cycles can stress joints, pipes, and seals. Rejecting heat is only the first step. A practical design must remain intact and maintain stable heat rejection over long periods of operation.",
+          "links": []
+        },
+        {
+          "type": "exhibit",
+          "id": "exhibit-thermal-conclusion"
+        }
+      ]
+    },
+    {
+      "id": "acknowledgements",
+      "title": "Acknowledgements",
+      "show_heading": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Many thanks to everyone who shared their insights and feedback, especially Kevin Cameron and 莊子宏 for suggesting heat pumps, and Thomas David for highlighting the effects of high temperatures on SRAM and other on-chip circuitry. These discussions prompted further reflection and helped shape the additions to this article.",
           "links": []
         }
       ]
@@ -177,9 +330,9 @@
   ],
   "exhibits": [
     {
-      "id": "musk-interview",
-      "kind": "image",
+      "id": "exhibit-photo",
       "title": "Elon Musk’s interview",
+      "kind": "image",
       "image": "images/musk-interview.png",
       "alt": "Elon Musk in the Dwarkesh Podcast interview",
       "sources": [
@@ -190,30 +343,40 @@
       ]
     },
     {
-      "id": "thermal-formula",
-      "kind": "image",
+      "id": "exhibit-thermal-formula",
       "title": "How radiative cooling works in space",
+      "kind": "image",
       "image": "images/formula-en.png",
-      "alt": "The Stefan–Boltzmann equation",
-      "sources": []
+      "alt": "The Stefan–Boltzmann equation"
     },
     {
-      "id": "thermal-scenarios",
-      "kind": "image",
+      "id": "exhibit-thermal-scenarios",
       "title": "A 20% temperature increase: two comparisons",
+      "kind": "image",
       "image": "images/temperature-en.png",
-      "alt": "Two comparisons for a 20% rise in absolute temperature",
-      "sources": []
+      "alt": "Two comparisons for a 20% rise in absolute temperature"
+    },
+    {
+      "id": "exhibit-jpl-heat-pump",
+      "title": "Separating equipment and radiator temperatures with a heat pump",
+      "kind": "image",
+      "image": "images/jpl-heat-pump-2022-figure-1.png",
+      "alt": "NASA JPL heat-pump design and compressor prototype",
+      "sources": [
+        {
+          "name": "NASA/JPL, 2022, Figure 1 | Miniature Efficient Heat Pump for Venus and Lunar Exploration",
+          "url": "https://www.jpl.nasa.gov/site/research/media/posters/2022/R21124p.pdf"
+        }
+      ],
+      "caption": "NASA/JPL’s miniature heat-pump design transfers heat from electronics below 60°C to a radiator above 120°C. The compressor prototype is shown at the upper left, with the cycle schematic at the lower right."
+    },
+    {
+      "id": "exhibit-thermal-conclusion",
+      "title": "Three conclusions about cooling in space",
+      "kind": "image",
+      "image": "images/conclusion-en.png",
+      "alt": "Three conclusions about space thermal management"
     }
   ],
-  "tags": [
-    "Data Centers",
-    "Liquid Cooling",
-    "Space Data Centers",
-    "Thermal Management",
-    "Radiative Cooling",
-    "Thermal Cycling",
-    "Temperature Gradient",
-    "Elon Musk"
-  ]
+  "archived_at": "2026-11-06"
 }

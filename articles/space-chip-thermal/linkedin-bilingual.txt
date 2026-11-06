@@ -2,6 +2,10 @@ Elon Musk said in an interview that raising the operating temperature by 20% cou
 
 Read more: https://iansnotes.com/en/space-chip-thermal-en/
 
+📝 Update: Added a discussion of heat pumps and the effects of higher temperatures on chip circuitry.
+
 Elon Musk 在訪談中提到，把工作溫度提高 20%，散熱器重量就可能減半。太空中是真空，沒有空氣帶走熱量，為什麼晶片跑得更熱，反而更有利於太空散熱？
 
 閱讀全文：https://iansnotes.com/zh/space-chip-thermal/
+
+📝 更新：本文已補充熱泵與高溫對晶片電路影響的討論。

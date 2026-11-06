@@ -1,11 +1,11 @@
 [
   {
     "id": "space-chip-thermal",
-    "title": "太空晶片為什麼要跑得更熱？",
-    "title_en": "Why Run Space Chips Hotter?",
+    "title": "太空散熱，非得讓晶片更熱嗎？",
+    "title_en": "Do Space Chips Have to Run Hotter?",
     "author": "Ian Chang",
     "status": "published",
-    "archived_at": "2026-11-04",
+    "archived_at": "2026-11-06",
     "published_date": "2026-11-04",
     "published_at": null,
     "website_url": "https://iansnotes.com/zh/space-chip-thermal/",
@@ -23,7 +23,7 @@
       "facebook-zh.txt",
       "linkedin-bilingual.txt"
     ],
-    "version_mapping": "中英文網站正文由已發布版本保存；正文文字與本次發文成品核對一致，圖片連結改為本資料夾相對路徑。",
+    "version_mapping": "中英文正文取自2026-11-06公開網站；全文保留，五個Exhibit依語言對應，圖片URL改為本庫相對路徑。",
     "tags": [
       "Data Centers",
       "Liquid Cooling",
@@ -33,7 +33,18 @@
       "Thermal Cycling",
       "Temperature Gradient",
       "Elon Musk"
-    ]
+    ],
+    "source_version": "A036",
+    "content_updated_date": "2026-11-05",
+    "website_modified_at": {
+      "zh": "2026-11-06T00:04:46",
+      "en": "2026-11-06T00:03:45"
+    },
+    "website_published_at": {
+      "zh": "2026-11-04T09:29:15",
+      "en": "2026-11-04T10:22:06"
+    },
+    "social_updated_date": "2026-11-06"
   },
   {
     "id": "tpca-ocp-msap",

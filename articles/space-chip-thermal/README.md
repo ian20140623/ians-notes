@@ -1,4 +1,8 @@
-# 太空晶片為什麼要跑得更熱？
+# 太空散熱，非得讓晶片更熱嗎？
+
+**Do Space Chips Have to Run Hotter?**
+
+首次發布：2026/11/04；內容更新：2026/11/05；存檔同步：2026/11/06。
 
 [中文網站全文](https://iansnotes.com/zh/space-chip-thermal/) · [English edition](https://iansnotes.com/en/space-chip-thermal-en/)
 
@@ -10,4 +14,4 @@
 - [中英文圖片](images/)
 - [發布紀錄](publication.json)
 
-公開文章保留原始引用連結。圖片與正文為公開發布版本；編輯討論、內部研究筆記與後台資料不包含在此存檔。
+公開文章與已發布圖像保存於此。研究筆記、編輯過程與查核工作紀錄留在私人庫。

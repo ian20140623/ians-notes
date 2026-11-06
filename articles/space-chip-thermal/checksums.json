@@ -1,35 +1,43 @@
 [
   {
     "file": "README.md",
-    "sha256": "fb708274464fc555f7bd550c1aa59fe3eb9a00ab1fb6ca2798fcb052ea08e009"
+    "sha256": "34a671ddf7f1f6e2148b2a8fde6e3a7dbba2dd7d50c8886f0ddeed3f9f1b5064"
   },
   {
     "file": "article-en.html",
-    "sha256": "b939936daaaf84ab1be9e3c3bf4faaed347f13d1c61cfc7b5bb9beaa43d7e21a"
+    "sha256": "853625d22633987e9d5cf14dc5b19bd75ab9e1a3c1235eb2a55259ea06918600"
   },
   {
     "file": "article-en.txt",
-    "sha256": "650c653c9d4881d36b5da75c017bd9299d674838951a453aa46b960bdc1fa7b4"
+    "sha256": "6c29d03b76864a55d3709f0d46feaab7bf3bd2c0e69e4bd0817a3c00a9b8d949"
   },
   {
     "file": "article.txt",
-    "sha256": "1b237df6a5891cf1d7464feffc0f948d2343af39f8ca9b3c8722b26399cc19d4"
+    "sha256": "ce1c690e1999da9ddc5b89b07a16247a38b76ff8955b68f49f8ce49df7c4e3d3"
   },
   {
     "file": "document-en.json",
-    "sha256": "5d2ca35b684c70e6d284198296186e61df78efe6ff6f64b08c7588b8d9ea1efe"
+    "sha256": "5846cbf2585d106758fa70696a8037f52e0aa3794d30ce7cb09442db6c4a1999"
   },
   {
     "file": "document-zh.json",
-    "sha256": "66db37dc9561d8d220cf8b0b08ece9fd5898bf6dc47cd17779498a694de97dc6"
+    "sha256": "f6261e2d4ddd833c829d8692527a610d589ae53315d8650048d8a129012c5235"
   },
   {
     "file": "facebook-zh.txt",
-    "sha256": "d5d4615d761646312db0438cecb9c05ff84abd8d479bada5594cf9ced636f748"
+    "sha256": "1e64c9e22748f14176f4e37e293397adfbcc25d6c364d2f21667a5d0a5ff9da3"
   },
   {
     "file": "full-article.html",
-    "sha256": "446529ba73218d4e8145bf0a3f55d2fcd3e3068ed5fdf1c1bee8f36ed2e05cdc"
+    "sha256": "8348c568fd88be5b13efb6defad7f601baa63fa48de80398a6b9811ed6621535"
+  },
+  {
+    "file": "images/conclusion-en.png",
+    "sha256": "804928aefe7f0103f3eea934e34583144a73819295bd9dd6f7d77ddf842229c0"
+  },
+  {
+    "file": "images/conclusion-zh.png",
+    "sha256": "43d1fa0d2b026e7b6523923da8c628dccb6f8754b9c7daafe513bb80d9f3820e"
   },
   {
     "file": "images/formula-en.png",
@@ -37,7 +45,11 @@
   },
   {
     "file": "images/formula-zh.png",
-    "sha256": "24f056f8a8578b9c4b62df09de7b01ecaafa71a2909794c8695a7dcbf55dcffc"
+    "sha256": "47199ed012163ea6b0a0c2c2f0448ca42291893315c127e27cb136b45ac020d8"
+  },
+  {
+    "file": "images/jpl-heat-pump-2022-figure-1.png",
+    "sha256": "ddbec75492ffdea76508df370b8ccdc4f7ef495e2f83bffdade4749b629ff2ad"
   },
   {
     "file": "images/musk-interview.png",
@@ -49,22 +61,22 @@
   },
   {
     "file": "images/temperature-zh.png",
-    "sha256": "8773d9465eb5a0b4b60eff9f50af403d81daf299483bf7f4abaf17128a386491"
+    "sha256": "88be4edd18af8a088e68a843f708d046d0ccd1aaf875e294013464606e3c70e2"
   },
   {
     "file": "index.html",
-    "sha256": "91cc6dbcd4f7d29d038bc26c88ba6e284f5c921d951cf0edd148db97e098c7d9"
+    "sha256": "882d012ec5c93eb9c11441a947df944e24835cba95fb53721d070c4547dcc86f"
   },
   {
     "file": "linkedin-bilingual.txt",
-    "sha256": "263754a72e93674c94f7fd783bacad061b7bfb8c5deb44eb3a6e2ae8e0e5bc2a"
+    "sha256": "3b45b99c216c9ff9aca81b5e4363b9f02e8cfeb103cab9b99510f94bd1afca92"
   },
   {
     "file": "publication.json",
-    "sha256": "4d0c096e33fc352886e438057a557c237504fbdd25cbad450eb36d4f544c5687"
+    "sha256": "f90f1f1bbd04afca17098e2228de90ecc0c32caa3bb4223ea0d711a43e015785"
   },
   {
     "file": "sources.md",
-    "sha256": "55dd13319c74574e46a9e8fea1a8f69922394f40c985e1d989bc454b52ff4fa6"
+    "sha256": "8854095f80a7b9e5ceb97cbebc651021b24b1f3834a992b49cc0d96abf9e50c6"
   }
 ]
